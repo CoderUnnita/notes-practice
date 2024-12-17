@@ -6,7 +6,7 @@
 nav{
     font-family: "Playwrite DE VA Guides", cursive;
     font-weight: 600;
-    font-size: xx-large;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -24,10 +24,20 @@ img{
 }
 body{
     height: 100%;
-    width: 100%;
+    width: 95%;
     background-color: bisque;
     margin-left: 4%;
 }
 a{
     color: rgb(10, 102, 221);
+}
+
+div{
+    align-items: center;
+    justify-items: center;
+}
+
+img{
+    float: right;
+    margin-right: 10%;
 }
