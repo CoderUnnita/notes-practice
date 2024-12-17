@@ -1,3 +1,20 @@
+// Hitesh Chaudhary Class - 4
+
+const name = "Unnita"
+let roll = 1234
+var dish = 'Jalebi Gol Gappe  '
+
+state = " Delhi "
+
+// name = 23 // not applicable 
+
+
+
+
+
+
+
+
 console.log("Hello Let's Learn JavaScript");
 const age=19;
 console.log("Age is", age);
