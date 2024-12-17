@@ -15,19 +15,20 @@ nav{
 li {
     color: rgb(1, 4, 7);
 }
+
 h2{
-    color: rgb(194, 110, 190);
-    text-decoration: overline;
+    font-size: 40px;
+    margin-left: 3%;
+    color: rgb(0, 28, 181);
 }
-img{
-    color: #0a6268;
-}
+
 body{
     height: 100%;
     width: 95%;
     background-color: bisque;
     margin-left: 4%;
 }
+
 a{
     color: rgb(10, 102, 221);
 }
