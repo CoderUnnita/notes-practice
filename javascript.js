@@ -13,7 +13,10 @@ dish = 'dairy milk'
 
 state = 'Berlin'
 
-console.table([roll, dish])
+// returns multiple outputs in a line 
+
+console.table([roll, dish]) 
+
 console.log(state)
 
 
