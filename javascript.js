@@ -4,7 +4,13 @@ const name = "Unnita"
 let roll = 1234
 var dish = 'Jalebi Gol Gappe'
 
-state = " Delhi "
+
+/* Never use VAR as it adds unneccessary bugs in code,
+    Because of issue in block scope & functional scope
+*/
+
+state = " Delhi "  
+// declaring variable without any keyword : bad practice 
 
 // name = 23 // not applicable as it is a const
 
@@ -15,7 +21,7 @@ state = 'Berlin'
 
 // returns multiple outputs in a line 
 
-console.table([roll, dish]) 
+console.table([roll, dish, state]) 
 
 console.log(state)
 
