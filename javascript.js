@@ -4,6 +4,7 @@ const name = "Unnita"
 let roll = 1234
 var dish = 'Jalebi Gol Gappe'
 
+let shizuka ; // returns undefined 
 
 /* Never use VAR as it adds unneccessary bugs in code,
     Because of issue in block scope & functional scope
@@ -21,7 +22,7 @@ state = 'Berlin'
 
 // returns multiple outputs in a line 
 
-console.table([roll, dish, state]) 
+console.table([roll, dish, state, shizuka]) 
 
 console.log(state)
 
