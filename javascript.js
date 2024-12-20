@@ -27,6 +27,16 @@ console.table([roll, dish, state, shizuka])
 console.log(state)
 
 
+// Hitesh Chaudhary Class - 5
+
+"use strict"; // this will treat all the js code as a new versions
+
+
+// there's nothing as no/don't use strict
+
+
+
+
 console.log("Hello Let's Learn JavaScript");
 const age=19;
 console.log("Age is", age);
