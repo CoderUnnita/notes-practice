@@ -35,6 +35,20 @@ console.log(state)
 
 // there's nothing as no/don't use strict
 
+//checking connectivity
+
+alert("It's just pracitce project so kindly ignore")
+
+//runs in browser only 
+
+//code readibility is worse below 
+console.log("anything"); console.log("random")
+
+//code readibility is best below
+console.log("anything");
+ 
+console.log("random")
+
 
 
 
@@ -62,7 +76,3 @@ else{
     console.log("Eligible!");
 }
 const yo = "You are special "
-
-//checking connectivity
-
-alert("It's just pracitce project so kindly ignore")
