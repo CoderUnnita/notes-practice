@@ -65,4 +65,4 @@ const yo = "You are special "
 
 //checking connectivity
 
-alert("It's just pracitce project so kindly ignore this Pop-up")
+alert("It's just pracitce project so kindly ignore")
