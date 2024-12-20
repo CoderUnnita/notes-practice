@@ -31,6 +31,7 @@ console.log(state)
 
 "use strict"; // this will treat all the js code as a new versions
 
+// nowadays engines smart enough to recognise all these stuff, so can ignore  
 
 // there's nothing as no/don't use strict
 
@@ -46,10 +47,12 @@ console.log("Age is", age);
 let arr=[12,14,16,18,20];
 console.log(arr[1]); 
 
+
 //Array using const
 
 const arr1=[12,14,16,18,20];
 console.log(arr[0]); 
+
 
 // Conditionals Statements
 
