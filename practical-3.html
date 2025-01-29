@@ -1,11 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>List Tags</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylish Design</title>
+  
+  <style>
+    /* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffc107; /* Yellow background */
+  border-radius: 20px;
+  width: 350px;
+  height: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* Side Icons */
+.icons {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.circle {
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.circle.small {
+  width: 40px;
+  height: 40px;
+}
+
+.circle.large {
+  width: 60px;
+  height: 60px;
+}
+
+.circle img {
+  width: 60%;
+}
+
+/* Main Content */
+.main-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signature {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.image-container {
+  margin-top: 50px;
+}
+
+.image-container img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.globe-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.globe-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+  </style>
 </head>
 <body>
-
+  <div class="container">
+    <div class="icons">
+      <div class="circle small">
+        <img src="assets/React.png" alt="Camera Icon">
+      </div>
+      <div class="circle small">
+        <img src="assets/shiddat.jpg" alt="Person Icon">
+      </div>
+      <div class="circle large">
+        <img src="assets/mouse.jpg" alt="Arrow Icon">
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="signature">Signature</div>
+      <div class="image-container">
+        <img src="assets/img.jpg" alt="Person with Camera">
+      </div>
+      <div class="globe-icon">
+        <img src="assets/oops.png" alt="Globe Icon">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
