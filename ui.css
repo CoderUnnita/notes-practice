@@ -6,17 +6,16 @@
 
 /* navbar styling */
 header{
-    height: 100px;
-}
-
-nav{
-    display: inline;
-    text-align: center;
-    align-content: space-between;
-    gap: 10px;
+    height: 2vw;
+    background-color: blueviolet;
 }
 
 nav div{
+    display: inline-block;
+    margin-top: 0.2vw;
+}
+
+#logo{
     display: inline-block;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -24,13 +23,16 @@ nav div{
 
 }
 
-nav div img{
-    width: 4%;
-    height: 4%;
+#logo img{
+    display: inline-block;
+    margin-top: 0.3vw;
+    width: 3%;
+    height: 3%;
     border-radius: 20px;
 }
 
-nav a{
+#navy a{
+    text-align: right;
     display: inline-block;
     text-decoration: none;
     font-family: "Montserrat", serif;
@@ -46,7 +48,7 @@ h1{
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-size: 10vw;
+  font-size: 11.6vw;
   font-style: normal;
 
   width: 100%;
