@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(assets/lady.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+p,h1{
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+}
