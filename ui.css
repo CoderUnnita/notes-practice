@@ -6,38 +6,47 @@
 
 /* navbar styling */
 header{
-    width: auto;
     height: 100px;
 }
 
 nav{
-    display: flexbox;
+    display: inline;
     text-align: center;
     align-content: space-between;
     gap: 10px;
 }
 
+nav div{
+    display: inline-block;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+
+}
+
+nav div img{
+    width: 4%;
+    height: 4%;
+    border-radius: 20px;
+}
+
 nav a{
+    display: inline-block;
     text-decoration: none;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     color: #000;
-}
 
-img{
-    width: 2%;
-    height: 1%;
-
-    border-radius: 20px;
+    width: 10vw;
 }
 
 h1{
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-size: 150px;
+  font-size: 10vw;
   font-style: normal;
 
   width: 100%;
