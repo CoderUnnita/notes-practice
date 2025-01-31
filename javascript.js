@@ -21,7 +21,6 @@ dish = 'dairy milk'
 state = 'Berlin'
 
 // returns multiple outputs in a line 
-
 console.table([roll, dish, state, shizuka]) 
 
 console.log(state)
@@ -32,7 +31,6 @@ console.log(state)
 "use strict"; // this will treat all the js code as a new versions
 
 // nowadays engines smart enough to recognise all these stuff, so can ignore  
-
 // there's nothing as no/don't use strict
 
 //checking connectivity
